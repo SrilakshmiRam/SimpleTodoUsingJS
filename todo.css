@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #ffc2a0;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .simpleTodos-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center; /* Center text for headings and inputs */
+  }
+  
+  .heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #ff8542;
+    font-weight: 800;
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .input-group {
+    width: 100%;
+    margin-bottom: 20px; /* Space below input group */
+  }
+  
+  .input-group input {
+    height: 40px; /* Adjust height for better alignment */
+  }
+  
+  #add-button {
+    height: 40px; /* Adjust height for better alignment */
+  }
+  
+  .text-checkbox-container {
+    margin-bottom: 10px; /* Space between todo items */
+  }
+  
+  .input-checkbox {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .add-todo-task {
+    outline: none;
+    width: 300px;
+  }
+  
+  .TodoCard-Container {
+    margin-bottom: 10px; /* Space between todo items */
+  }
+  
+  .todo-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .todo-checked {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: line-through;
+  }
+  
+  .button {
+    border-color: #ff0b37;
+    border-width: 1px;
+    border-radius: 4px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #ff0b37;
+    font-weight: 600;
+    background-color: #ffffff;
+    margin-left: 10px;
+  }
+  
+  .button-edit {
+    border-color: #8f34eb;
+    color: #eb6e34;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 576px) {
+    .button {
+      height: 28px; /* Reduce button height */
+      font-size: 12px; /* Smaller font size */
+      padding: 0 5px; /* Add padding for better touch */
+    }
+  
+    .input-checkbox {
+      width: 18px; /* Adjust checkbox size */
+      height: 18px; /* Adjust checkbox size */
+    }
+  
+    .todo-heading,
+    .todo-checked {
+      font-size: 14px; /* Smaller text size */
+    }
+  }
+  
+  
+
+  .text-checkbox-container {
+    flex: 1; /* Takes available space */
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
